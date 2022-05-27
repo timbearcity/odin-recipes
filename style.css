@@ -60,3 +60,32 @@ nav>.title {
 .list-grid>li>p {
   margin: 0.5em;
 }
+
+/* Scrollbar */
+
+html {
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: grey;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: black;
+}
