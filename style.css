@@ -1,0 +1,62 @@
+body {
+  font-family: Georgia, serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.container * {
+  max-width: inherit;
+}
+
+.navbar {
+  align-items: center;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+nav>.title {
+  font-size: 24px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.list-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list-grid>li {
+  border: 1px solid grey;
+  border-radius: 0.5em;
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+}
+
+.list-grid>li>img {
+  border-radius: 0.5em 0.5em 0 0;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.list-grid>li>a {
+  margin: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+
+.list-grid>li>p {
+  margin: 0.5em;
+}
