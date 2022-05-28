@@ -2,6 +2,10 @@ body {
   font-family: Georgia, serif;
 }
 
+img {
+  max-height: 200px;
+}
+
 .container {
   margin: auto;
   max-width: 1000px;
